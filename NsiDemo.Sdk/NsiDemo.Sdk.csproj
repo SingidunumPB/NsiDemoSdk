@@ -5,13 +5,16 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>NsiDemo.Sdk</PackageId>
-        <Version>0.0.2</Version>
+        <Version>0.0.4</Version>
         <Authors>NSI IT</Authors>
         <Company>NSI</Company>
         <PackageDescription>
             SDK for Demo SDK
         </PackageDescription>
         <PackageReleaseNotes>
+            v.0.0.4
+            - New sdk client
+            
             v.0.0.2
             - Initial release v2
             
