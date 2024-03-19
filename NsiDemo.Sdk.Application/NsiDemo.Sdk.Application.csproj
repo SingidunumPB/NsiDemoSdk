@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>NsiDemo.Sdk.Application</PackageId>
-        <Version>0.0.1</Version>
+        <Version>1.0.1</Version>
         <Authors>NSI IT</Authors>
         <Company>NSI</Company>
         <PackageDescription>
