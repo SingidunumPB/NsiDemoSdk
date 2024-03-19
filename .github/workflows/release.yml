@@ -13,8 +13,10 @@ jobs:
         uses: actions/setup-dotnet@v1
       - name: Build
         run: dotnet build -c Release
-      - name: Testa
+      - name: Test
         run: dotnet test -c Release --no-build
+      - name: List files in directory
+        run: ls ./out
       - name: Pack nugets
         run: |
           cd ./NsiDemo.Sdk.Application
