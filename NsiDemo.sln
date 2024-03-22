@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsiDemo.Sdk", "NsiDemo.Sdk\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsiDemo.Sdk.Application", "NsiDemo.Sdk.Application\NsiDemo.Sdk.Application.csproj", "{8C2C27E6-CE70-4D3C-B912-81F9BB520027}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F3BF254C-C3F6-411A-B39F-DA790259D06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsiDemo.Sdk.Tests", "NsiDemo.Sdk.Tests\NsiDemo.Sdk.Tests.csproj", "{3ED2AC9C-B47A-4E21-AFB8-1B0FF73C3634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{8C2C27E6-CE70-4D3C-B912-81F9BB520027}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C2C27E6-CE70-4D3C-B912-81F9BB520027}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C2C27E6-CE70-4D3C-B912-81F9BB520027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED2AC9C-B47A-4E21-AFB8-1B0FF73C3634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED2AC9C-B47A-4E21-AFB8-1B0FF73C3634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED2AC9C-B47A-4E21-AFB8-1B0FF73C3634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED2AC9C-B47A-4E21-AFB8-1B0FF73C3634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ED2AC9C-B47A-4E21-AFB8-1B0FF73C3634} = {F3BF254C-C3F6-411A-B39F-DA790259D06C}
 	EndGlobalSection
 EndGlobal
