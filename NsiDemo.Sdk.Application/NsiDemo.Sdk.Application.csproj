@@ -5,13 +5,25 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>NsiDemo.Sdk.Application</PackageId>
-        <Version>0.0.3</Version>
+        <Version>1.0.0</Version>
         <Authors>NSI IT</Authors>
         <Company>NSI</Company>
         <PackageDescription>
             SDK for Demo SDK
         </PackageDescription>
         <PackageReleaseNotes>
+            v.1.0.0
+            - Starter package
+            
+            v.0.0.9
+            - New implementation
+            
+            v.0.0.5
+            - Returned private assets
+            
+            v.0.0.4
+            - Removed Private assets
+            
             v.0.0.3
             - Change to one nupkg file
             
