@@ -7,7 +7,7 @@ public class NsiDemoSdkClient(IDemoApi api) : INsiDemoSdkClient
 {
     public async Task<DemoProductCreateResponseModel> CreateProductAsync(DemoProductRequestModel request)
     {
-        var result = await api.CreateProductAsync(request.ToDto());
+        var result = await api.CreateProductAsync(request.ToDto(), request.Headers);
         return result.ToModel();
     }
 }

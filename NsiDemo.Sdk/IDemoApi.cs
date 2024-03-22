@@ -5,6 +5,6 @@ namespace NsiDemo.Sdk;
 
 public interface IDemoApi
 {
-    [Post("/api/Product/Create/create")]
-    public Task<DemoProductCreateResponseDto> CreateProductAsync(DemoProductRequestDto request);
+    [Post("/webhook/ProductWebhook/Create/create")]
+    public Task<DemoProductCreateResponseDto> CreateProductAsync(DemoProductRequestDto request, [HeaderCollection] IDictionary<string, string> headers);
 }

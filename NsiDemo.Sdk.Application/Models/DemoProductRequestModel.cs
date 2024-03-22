@@ -2,7 +2,7 @@
 
 namespace NsiDemo.Sdk.Application.Models;
 
-public record DemoProductRequestModel(Guid CompanyId, string Name, string BaseUrl)
+public record DemoProductRequestModel(Guid CompanyId, string Name, string BaseUrl, IDictionary<string, string> Headers)
 {
     public DemoProductRequestDto ToDto()
     {
